@@ -9,8 +9,17 @@ It then feeds each file into the LLM, asks the questions, and stores the answers
 
 
 ### Getting started
+#### Installing JupyterLab
 You should install JupyterLab (or any other appp that can open Jupyternotebooks). 
 
 See: https://github.com/jupyterlab/jupyterlab-desktop
 
-After that, you can download and open the file.
+You should open the programme and install Python.
+
+#### Getting API acces from Cohere
+You can get acces to the API (for free!) using this link: https://dashboard.cohere.com/
+
+The free API is rate limited to 10 requests per minute, which is taken into account in the code of the programme.
+
+#### Downloading and using the JupyterNotebook
+Now you are ready to open and use the notebook!
