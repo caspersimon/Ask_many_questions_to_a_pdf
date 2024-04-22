@@ -5,7 +5,7 @@ This is a jupyterlab notebook that uses the API by Cohere to ask its Large Langu
 You give the programme the path of a folder that contains a set of pdf files you want to feed the AI. 
 You also give the path of a `.txt` file that contains questions you want to ask about all the files.
 
-It then feeds each file into the LLM, asks the questions, and stores the answers in a `.csv` file.
+It then feeds each file into the LLM, asks the questions, and stores the answers in a `.csv` file. It also generates a word-document for each pdf file, wherein your questions are headers, and the answers are the paragraphs.
 
 
 ## Getting started
@@ -25,6 +25,9 @@ The free API is rate limited to 10 requests per minute, which is taken into acco
 Now you are ready to open and use the notebook!
 
 # Things to keep in mind
-This programme is made by someone who started learning Python very recently (since February of 2024). This is the reason why the underlying code is a bit messy, (e.g., includes redundant lines of code). All constructive feedback is welcome on the discussion forum, but please be kind <3.
-
+## Environmental sustainability
+Feeding a language model large pdf's requires a lot of computing power. Although Cohere offers this functionality for free, you should keep this in mind.
 Additionally, please make sure to read and adhere to the terms of service for using Cohere's API. I am not affiliated with them in any way, I just use their API since it offers a lot of functionality for free.
+
+## About the creator
+This programme is made by someone who started learning Python very recently (since February of 2024). This is the reason why the underlying code is a bit messy, (e.g., includes redundant lines of code). All constructive feedback is welcome on the discussion forum, but please be kind <3.
